@@ -10,7 +10,7 @@ Explanation:
 	Training: train the model and validate data every epoch
 4.tuning: this part experiments with different hyper-parameters
        The submitted setting is:
-       Model: resnet34 epoch: 25  learning rate: 0.1 Criterion: nn.CrossEntropyLoss    Optimizer: SGD   
+       Model: ensembled resnet34, resnet50, resnet150 epoch: 25  learning rate: 0.1 Criterion: nn.CrossEntropyLoss    Optimizer: SGD   
        In_features: 3 weight decay: 5e-5   scheduler: step size of 10 with gamma 0.2    feature dimension: 1200
 5. testing: predict the testing set and submit
 
